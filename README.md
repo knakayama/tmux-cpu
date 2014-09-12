@@ -21,5 +21,5 @@ set-option -g status-right '#{avg}'
 
 ## LICENSE
 
-[MIT](https://github.com/knakayama/tmux-avg/blob/master/LICENCE.md)
+[MIT](https://github.com/knakayama/tmux-avg/blob/master/LICENSE.md)
 
