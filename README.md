@@ -1,4 +1,4 @@
-tmux-avg
+tmux-cpu
 ========
 
 This is a mini plugin for [TPM](https://github.com/tmux-plugins/tpm).
@@ -7,12 +7,12 @@ This plugin just display LoadAverage. Only do it.
 
 ## Usage
 
-Add #{avg} format string to your existing status-right tmux option.
+Add #{cpu} format string to your existing status-right tmux option.
 
 ex:
 
 ```shell
-set-option -g status-right '#{avg}'
+set-option -g status-right '#{cpu}'
 ```
 
 ## Install
@@ -21,5 +21,4 @@ set-option -g status-right '#{avg}'
 
 ## LICENSE
 
-[MIT](https://github.com/knakayama/tmux-avg/blob/master/LICENSE.md)
-
+[MIT](https://github.com/knakayama/tmux-cpu/blob/master/LICENSE)
